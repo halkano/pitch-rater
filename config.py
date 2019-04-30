@@ -14,7 +14,7 @@ class Config:
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     MAIL_USERNAME='halkanoh10@gmail.com'
-    MAIL_PASSWORD='henry10'
+    MAIL_PASSWORD='1234'
     SUBJECT_PREFIX='PITCH HUB'
     SENDER_EMAIL='halkanoh10@gmail.com'
 

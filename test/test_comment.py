@@ -7,7 +7,7 @@ from app import db
 class TestComment(unittest.TestCase):
 
         def setUp(self):
-                self.post_Fly = Post(title = 'James',body = 'potato', id = '1')
+                self.post_Fly = Post(title = 'halkano',body = 'potato', id = '1')
                 self.new_comment = Comment(body = 'good')
 
 
@@ -19,7 +19,7 @@ class TestComment(unittest.TestCase):
                 self.assertEquals(self.new_comment.post_id,12345)
                 self.assertEquals(self.new_comment.post_title,'Review for movies')
                 self.assertEquals(self.new_comment.post_comment,'This movie is the best thing since sliced bread')
-                self.assertEquals(self.new_comment.user,self.user_James)
+                self.assertEquals(self.new_comment.user,self.user_halkano)
 
         def test_save_comment(self):
                 self.new_comment.save_comment()

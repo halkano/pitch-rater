@@ -8,7 +8,7 @@ class TestPost(unittest.TestCase):
 
     def setUp(self):
         self.user_James = User(
-            username='James', password='potato', email='james@ms.com')
+            username='halkano', password='1234', email='halkanoh10@gmail.com')
         self.new_post = Post(id=12345, title='Title for pitches',
                              comments='This movie is the best thing since sliced bread', author_id=1)
 
