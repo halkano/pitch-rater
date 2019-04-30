@@ -2,7 +2,7 @@
 
 ## Perfect Pitch is a web application that is meant to help people give a one minute pitch
 
-### Feb 8th, 2019
+### April 28th, 2019
 
 #### By **[halkano henry](https://github.com/halkano-henry)**
 
